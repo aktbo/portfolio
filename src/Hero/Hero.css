@@ -2,23 +2,6 @@
   background-color: rgb(198, 194, 194);
 } */
 
-.contact-btn {
-  background-color: transparent;
-  border-color: #672364;
-  border: 5;
-  border-radius: 10rem;
-  padding: 5;
-  margin: 10;
-}
-
-.contact-btn :hover {
-  color: #672364;
-}
-
-.contact-icon {
-  color: #000;
-}
-
 .moon-pic {
   height: 200px;
   width: 200px;
@@ -59,9 +42,9 @@
 
 .large-heading {
   font-size: 200px;
-  color: aliceblue;
+  color: #000;
   top: -170px;
   left: 20px;
-  position: absolute;
+  position: relative;
   opacity: 10%;
 }

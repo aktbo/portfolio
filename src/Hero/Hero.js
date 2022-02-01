@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className="hero-box">
       {/* <img src={require("./Sky.png")} alt="Sky" className="sky-pic" /> */}
-      <p className="large-heading"> Developer</p>
+      <p className="large-heading"> Focused, Motivated,</p>
       {/* <img src={require("./Moon.png")} alt="Moon" className="moon-pic" /> */}
       <div className="info-box">
         <p className="p-heading">About Me</p>
