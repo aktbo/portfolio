@@ -10,24 +10,18 @@ import {
 } from "react-icons/go";
 
 const Navbar = () => {
-  const handleClick = (btn) => {
-    const url = "./" + btn + ".js";
-    <link to={url} />;
-    console.log(url);
-    return;
-  };
   return (
-    <>
-      <button className="homeNav-btn">Home</button>
-      <button className="aboutNav-btn" onClick={() => handleClick("About")}>
-        About
-      </button>
-      <button className="contactNav-btn">Contact</button>
-      <button className="projectNav-btn">Projects</button>
-      <button className="burgerNav-btn " hidden>
-        <GoThreeBars />
-      </button>
-    </>
+    <main>
+      <ul>
+        <li id="h-item">Home</li>
+        <li id="a-item">About</li>
+        <li id="c-item">Contact</li>
+        <li id="p-item">Projects</li>
+        <li id="hamburger-menu" className="hidden">
+          <GoThreeBars />
+        </li>
+      </ul>
+    </main>
   );
 };
 

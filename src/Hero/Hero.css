@@ -1,50 +1,27 @@
-/* .hero-box {
-  background-color: rgb(198, 194, 194);
-} */
-
-.moon-pic {
-  height: 200px;
-  width: 200px;
-  position: absolute;
-  top: 10%;
-  right: 10%;
+#hero-con {
+  /* position: absolute; */
+  margin: 0 auto;
+  padding: 0;
 }
 
-.sky-pic {
+#hero-bg {
   width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
 }
 
-.info-box {
-  border-radius: 0.25rem;
-  background-color: rgb(0, 0, 0);
-  border: 0.1px solid;
-  border-color: aliceblue;
-  height: 180px;
-  width: 350px;
-  margin-left: 20px;
-  top: 50%;
-  position: absolute;
+/* @media screen and (max-width: 820px) {
+  li {
+    margin-right: 27px;
+    margin-left: 10px;
+  }
 }
 
-.text-block {
-  color: aliceblue;
-  line-height: 20px;
-  margin: 6px;
-}
-
-.p-heading {
-  color: brown;
-}
-
-.header {
-  color: rgb(56, 125, 185);
-}
-
-.large-heading {
-  font-size: 200px;
-  color: #000;
-  top: -170px;
-  left: 20px;
-  position: relative;
-  opacity: 10%;
-}
+@media screen and (max-width: 500px) {
+  li {
+    font-size: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+} */

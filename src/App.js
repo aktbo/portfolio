@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import Hero from "./Hero/Hero.js";
 import Navbar from "./navbar/Navbar";
@@ -6,11 +7,11 @@ import About from "./Pages/About";
 
 function App() {
   return (
-    <div>
-      <Navbar />
+    <div id="web-con">
+      {/* <Navbar /> */}
       <Hero />
-      <Footer />
-      <About />
+      {/* <Footer /> */}
+      {/* <About /> */}
     </div>
   );
 }
