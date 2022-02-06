@@ -1,26 +1,21 @@
 import React from "react";
 import "./Navbar.css";
-import {
-  GoX,
-  GoRepo,
-  GoMail,
-  GoThreeBars,
-  GoIssueOpened,
-  GoHome,
-} from "react-icons/go";
+import { GoThreeBars, GoHome } from "react-icons/go";
+import { icon } from "@fortawesome/fontawesome-svg-core";
 
 const Navbar = () => {
   return (
-    <main>
-      <ul>
-        <li id="h-item">Home</li>
-        <li id="a-item">About</li>
-        <li id="c-item">Contact</li>
-        <li id="p-item">Projects</li>
-        <li id="hamburger-menu" className="hidden">
-          <GoThreeBars />
-        </li>
-      </ul>
+    <main className="container-nav">
+      <div className="home-a">
+        <a href="/">
+          <GoHome size={30} />
+        </a>
+      </div>
+      <div id="bar-a">
+        <a href={"/"}>
+          <GoThreeBars className={"bars-icon"} size={30} />
+        </a>
+      </div>
     </main>
   );
 };

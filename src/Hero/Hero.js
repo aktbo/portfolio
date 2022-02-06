@@ -1,11 +1,15 @@
 import React from "react";
 import "./Hero.css";
-import "./minimalist4k.jpg";
+import "./10630-minimalist-black-phone-wallpaper-top-free-minimalist-black.jpg";
 
 const Hero = () => {
   return (
     <main id="hero-con">
-      <img id="hero-bg" src={require("./minimalist4k.jpg")} alt="mini 4k" />
+      <img
+        id="hero-bg"
+        src={require("./10630-minimalist-black-phone-wallpaper-top-free-minimalist-black.jpg")}
+        alt="mini 4k"
+      />
     </main>
   );
 };

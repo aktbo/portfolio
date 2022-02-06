@@ -8,7 +8,7 @@ import About from "./Pages/About";
 function App() {
   return (
     <div id="web-con">
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       {/* <Footer /> */}
       {/* <About /> */}
