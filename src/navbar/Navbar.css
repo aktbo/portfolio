@@ -9,12 +9,55 @@
   padding: 0 20px 0 20px;
 }
 
-.home-a {
+.home-con {
   margin-top: 20px;
+}
+#gohome-a {
+  padding: 18px 3px 0 3px;
+  border-bottom: 3px solid;
+  border-radius: 100%;
+  border-image-slice: 1;
+}
+
+#gothreebars-a {
+  padding: 18px 3px 0 3px;
+  border-bottom: 3px solid #1a1a1a;
+  border-radius: 100%;
+  border-image-slice: 1;
+}
+
+#gohome-a:hover {
+  border-image-source: linear-gradient(to left, #ff0066, #33ccff);
+}
+
+#gothreebars-a:hover {
+  border-image-source: linear-gradient(to left, #ff0066, #33ccff);
 }
 
 #bars-icon {
   -ms-transform: rotate(90deg); /* Internet Explorer 9 */
   -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
   transform: rotate(90deg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 0) {
+  a {
+    background-color: #e1e1e1;
+    background-image: -webkit-linear-gradient(
+      left,
+      #33ccff 10%,
+      #ff0066 50%,
+      transparent 50%
+    );
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: transparent;
+    -webkit-transition: 0.1s 0.2s;
+    -webkit-background-clip: text;
+  }
+  a:hover {
+    background-position: 0 0;
+    color: transparent;
+    transition: 0.1s 0;
+  }
 }

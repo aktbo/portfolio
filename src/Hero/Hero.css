@@ -7,13 +7,16 @@
 /* new css animation */
 
 .circle {
+  top: 24%;
+  left: 27%;
+  position: absolute;
   margin: 0 auto;
   padding: 0;
   width: 60vh;
   height: 60vh;
   background: linear-gradient(#33ccff, #ff0066);
   border-radius: 50%;
-  animation: animate 0.9s linear infinite;
+  animation: animate 5s linear infinite;
 }
 
 @keyframes animate {
@@ -33,7 +36,7 @@
   bottom: 35px;
   left: 35px;
   border-radius: 50%;
-  background-color: #1a1a1a;
+  background-color: #222121;
 }
 
 .circle span {
@@ -134,11 +137,24 @@ a {
   -o-transform: rotate(90deg);
 }
 
-/*
-@media screen and (max-width: 500px) {
-  li {
-    font-size: 25px;
-    margin-right: 20px;
-    margin-left: 20px;
+@media (-webkit-min-device-pixel-ratio: 0) {
+  a {
+    background-color: #e1e1e1;
+    background-image: -webkit-linear-gradient(
+      left,
+      #33ccff 10%,
+      #ff0066 50%,
+      transparent 50%
+    );
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: transparent;
+    -webkit-transition: 0.1s 0.2s;
+    -webkit-background-clip: text;
   }
-} */
+  a:hover {
+    background-position: 0 0;
+    color: transparent;
+    transition: 0.1s 0;
+  }
+}

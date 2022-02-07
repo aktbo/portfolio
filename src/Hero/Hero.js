@@ -1,6 +1,5 @@
 import React from "react";
 import "./Hero.css";
-import "./minimalistHome4k.jpg";
 
 const Hero = () => {
   return (
@@ -18,7 +17,6 @@ const Hero = () => {
         <span></span>
       </div>
       {/* ^^^^^^^^^^^^^^^^^ */}
-      {/* <img id="hero-bg" src={require("./minimalistHome4k.jpg")} alt="mini 4k" /> */}
       <div id="hero-links-con">
         <div id="github-a">
           <a href="/">Github</a>
