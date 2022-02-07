@@ -70,18 +70,11 @@
   margin: 0 auto;
 }
 
-#hero-head {
-  padding: 0;
-  margin: 0;
-  max-width: 50px;
-  background-color: blue;
-}
-
 #hero-links-con {
   height: 100%;
   width: 40px;
   position: absolute;
-  right: 30px;
+  right: 0;
   font-family: Andale Mono, monospace;
 }
 
@@ -100,7 +93,7 @@ a {
 
 #github-a {
   position: absolute;
-  top: 16%;
+  top: 25%;
   font-size: 17px;
   width: 20px;
 
@@ -113,20 +106,7 @@ a {
 
 #linkedin-a {
   position: absolute;
-  top: 50%;
-  font-size: 17px;
-  width: 20px;
-
-  transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-}
-
-#indeed-a {
-  position: absolute;
-  top: 84%;
+  bottom: 25%;
   font-size: 17px;
   width: 20px;
 

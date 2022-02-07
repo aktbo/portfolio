@@ -4,11 +4,6 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <main className="hero-con">
-      <p id="hero-head">
-        Aaron
-        <br /> Thibeaux
-        <br /> Web developer
-      </p>
       {/* new css animation */}
       <div className="circle">
         <span></span>
@@ -19,13 +14,12 @@ const Hero = () => {
       {/* ^^^^^^^^^^^^^^^^^ */}
       <div id="hero-links-con">
         <div id="github-a">
-          <a href="/">Github</a>
+          <a href="https://github.com/aktbo">Github</a>
         </div>
         <div id="linkedin-a">
-          <a href="/">LinkedIn</a>
-        </div>
-        <div id="indeed-a">
-          <a href="/">Indeed</a>
+          <a href="https://www.linkedin.com/in/aaron-thibeaux-863b09212/">
+            LinkedIn
+          </a>
         </div>
       </div>
     </main>

@@ -19,8 +19,10 @@
   border-image-slice: 1;
 }
 
-#gothreebars-a {
+#rightarrow-btn {
+  background-color: transparent;
   padding: 18px 3px 0 3px;
+  border: 0;
   border-bottom: 3px solid #1a1a1a;
   border-radius: 100%;
   border-image-slice: 1;
@@ -30,14 +32,8 @@
   border-image-source: linear-gradient(to left, #ff0066, #33ccff);
 }
 
-#gothreebars-a:hover {
+#rightarrow-btn:hover {
   border-image-source: linear-gradient(to left, #ff0066, #33ccff);
-}
-
-#bars-icon {
-  -ms-transform: rotate(90deg); /* Internet Explorer 9 */
-  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-  transform: rotate(90deg);
 }
 
 @media (-webkit-min-device-pixel-ratio: 0) {
