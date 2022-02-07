@@ -8,12 +8,12 @@ const Navbar = () => {
     <main className="container-nav">
       <div className="home-a">
         <a href="/">
-          <GoHome size={30} />
+          <GoHome size={30} color={"#e1e1e1"} />
         </a>
       </div>
-      <div id="bar-a">
+      <div className="bar-a">
         <a href={"/"}>
-          <GoThreeBars className={"bars-icon"} size={30} />
+          <GoThreeBars id={"bars-icon"} size={30} color={"#e1e1e1"} />
         </a>
       </div>
     </main>

@@ -7,7 +7,7 @@ import About from "./Pages/About";
 
 function App() {
   return (
-    <div id="web-con">
+    <div>
       <Navbar />
       <Hero />
       {/* <Footer /> */}
