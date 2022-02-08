@@ -5,20 +5,12 @@
 .p-con {
   position: absolute;
   top: 0%;
-  right: 5%;
-  left: 15%;
+
+  left: 14%;
   height: 100%;
   width: 80%;
   padding: 0;
   margin: 0 auto;
-}
-
-#text-s {
-  margin-top: 10px;
-}
-
-#text-e {
-  margin-top: 13px;
 }
 
 p {
@@ -34,7 +26,7 @@ p {
 /* new css animation */
 #box {
   top: 0%;
-  right: 5%;
+  right: 6%;
   position: fixed;
   align-items: center;
   justify-content: center;
@@ -69,7 +61,7 @@ p {
     #ff0066,
     #33ccff
   );
-  border-radius: calc(2 * var(--borderWidth));
+
   z-index: -1;
   animation: animatedgradient 15s ease alternate infinite;
   background-size: 300% 300%;
@@ -91,7 +83,7 @@ p {
   position: absolute;
   z-index: -1;
   top: 6%;
-  right: 5%;
+  right: 7.5%;
   width: 87%;
   height: 87%;
   background: linear-gradient(#33ccff, #ff0066);
@@ -109,4 +101,40 @@ p {
 }
 .gradient-border span:nth-child(4) {
   filter: blur(55px);
+}
+
+@media (max-width: 740px) {
+  .p-con {
+    left: 15%;
+    right: 19%;
+    width: 83%;
+  }
+  #box {
+    left: 80px;
+    width: 87.7%;
+  }
+  .gradient-border span {
+    width: 10px;
+  }
+}
+@media (max-width: 540px) {
+  .p-con {
+    top: 0;
+
+    right: 0;
+    left: 61px;
+
+    width: 84.5%;
+  }
+  p {
+    margin: 0.2px auto;
+    width: 93.2%;
+  }
+  #text-s {
+    margin-top: 0;
+  }
+
+  #text-e {
+    margin-top: 0;
+  }
 }
