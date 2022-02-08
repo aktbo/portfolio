@@ -1,11 +1,16 @@
 .text-con {
   position: absolute;
-  border-radius: 1.4%;
-  top: 5%;
+}
+
+.p-con {
+  position: absolute;
+  top: 0%;
   right: 5%;
-  height: 90%;
+  left: 15%;
+  height: 100%;
   width: 80%;
-  background-color: #1a1a1a;
+  padding: 0;
+  margin: 0 auto;
 }
 
 #text-s {
@@ -14,33 +19,35 @@
 
 #text-e {
   margin-top: 13px;
-  padding: 0;
 }
 
 p {
   color: #e1e1e1;
-  padding: 1px 20px;
+  padding: 20px;
   margin: 5px 0;
   line-height: 31px;
-  font-size: 15px;
+  font-size: 18px;
   font-family: Courier New, monospace;
+  background-color: #1a1a1a;
 }
 
 /* new css animation */
 #box {
-  position: absolute;
+  top: 0%;
+  right: 5%;
+  position: fixed;
   align-items: center;
   justify-content: center;
-  width: 100%;
   height: 100%;
+  width: 80%;
   color: white;
   font-family: "Raleway";
   font-size: 2.5rem;
-  background-color: transparent;
 }
 .gradient-border {
   --borderWidth: 8px;
-  background: #1d1f20;
+  background: transparent;
+
   position: relative;
   border-radius: var(--borderWidth);
 }

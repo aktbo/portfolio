@@ -4,7 +4,7 @@
   background-color: #1a1a1a;
   max-width: 70px;
   height: 100%;
-  position: absolute;
+  position: fixed;
   margin: 0;
   padding: 0 20px 0 20px;
   top: 0;
