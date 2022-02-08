@@ -1,20 +1,22 @@
 import React from "react";
-import "./App.css";
+import About from "./Pages/About";
 import Hero from "./components/hero/Hero";
-import Home from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
-import About from "./Pages/About";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Hero />
-      <Home />
-      {/* <Footer /> */}
-      {/* <About /> */}
-    </div>
+      <Switch>
+        <Route path="/" exact component={Hero} />
+        {/* <Route path="/contact" component={Contact} /> */}
+        <Route path="/about" component={About} />
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 

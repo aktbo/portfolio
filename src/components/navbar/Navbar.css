@@ -49,7 +49,9 @@
     background-position: 100% 0;
     background-size: 200% 200%;
     color: transparent;
+    transition: 0.1s 0.2s;
     -webkit-transition: 0.1s 0.2s;
+    background-clip: text;
     -webkit-background-clip: text;
   }
   a:hover {
