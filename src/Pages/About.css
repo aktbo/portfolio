@@ -1,0 +1,105 @@
+.text-con {
+  position: absolute;
+  border-radius: 1.4%;
+  top: 5%;
+  right: 5%;
+  height: 90%;
+  width: 80%;
+  background-color: #1a1a1a;
+}
+
+#text-s {
+  margin-top: 10px;
+}
+
+#text-e {
+  margin-top: 13px;
+  padding: 0;
+}
+
+p {
+  color: #e1e1e1;
+  padding: 1px 20px;
+  margin: 5px 0;
+  line-height: 31px;
+  font-size: 15px;
+  font-family: Courier New, monospace;
+}
+
+/* new css animation */
+#box {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: "Raleway";
+  font-size: 2.5rem;
+  background-color: transparent;
+}
+.gradient-border {
+  --borderWidth: 8px;
+  background: #1d1f20;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+  content: "";
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(
+    60deg,
+    #ff0066,
+    #33ccff,
+    #ff0066,
+    #33ccff,
+    #ff0066,
+    #33ccff,
+    #ff0066,
+    #33ccff
+  );
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 15s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+.gradient-border span {
+  position: absolute;
+  z-index: -1;
+  top: 6%;
+  right: 5%;
+  width: 87%;
+  height: 87%;
+  background: linear-gradient(#33ccff, #ff0066);
+  border-radius: 0;
+}
+
+.gradient-border span:nth-child(1) {
+  filter: blur(5px);
+}
+.gradient-border span:nth-child(2) {
+  filter: blur(10px);
+}
+.gradient-border span:nth-child(3) {
+  filter: blur(20px);
+}
+.gradient-border span:nth-child(4) {
+  filter: blur(55px);
+}

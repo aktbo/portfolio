@@ -14,6 +14,7 @@ function App() {
         <Route path="/" exact component={Hero} />
         {/* <Route path="/contact" component={Contact} /> */}
         <Route path="/about" component={About} />
+        {/* <Route parth="*" component={NotFound} /> */}
       </Switch>
       <Footer />
     </Router>

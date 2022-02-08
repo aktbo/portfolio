@@ -1,4 +1,4 @@
-.container-nav {
+.nav-container {
   display: grid;
   border-right: 1px solid #333;
   background-color: #1a1a1a;
@@ -7,34 +7,44 @@
   position: absolute;
   margin: 0;
   padding: 0 20px 0 20px;
+  top: 0;
+  bottom: 0;
 }
 
-.info-con {
-  margin-top: 20px;
-}
-#info-a {
+#home-a {
+  top: 10%;
+  position: relative;
   padding: 18px 3px 0 3px;
   border-bottom: 3px solid;
-  border-radius: 100%;
   border-image-slice: 1;
 }
 
-#contact-btn {
-  background-color: transparent;
+#contact-a {
+  top: 50%;
+  position: relative;
   padding: 18px 3px 0 3px;
-  border: 0;
-  border-bottom: 3px solid #1a1a1a;
-  border-radius: 100%;
+  border-bottom: 3px solid;
   border-image-slice: 1;
 }
 
-#info-a:hover {
+#about-a {
+  bottom: 3%;
+  position: absolute;
+  padding: 18px 3px 0 3px;
+  border-bottom: 3px solid;
+  border-image-slice: 1;
+}
+
+#home-a:hover {
   border-image-source: linear-gradient(to left, #ff0066, #33ccff);
 }
 
-#contact-btn:hover {
+#contact-a:hover {
   border-image-source: linear-gradient(to left, #ff0066, #33ccff);
-  cursor: pointer;
+}
+
+#about-a:hover {
+  border-image-source: linear-gradient(to left, #ff0066, #33ccff);
 }
 
 @media (-webkit-min-device-pixel-ratio: 0) {
