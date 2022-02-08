@@ -1,24 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.css";
-import {
-  FiCircle,
-  FiChevronsUp,
-  FiChevronsDown,
-  FiChevronRight,
-  FiChevronLeft,
-} from "react-icons/fi";
+import { FiInfo, FiChevronsUp, FiMessageSquare } from "react-icons/fi";
 
 const Navbar = () => {
   return (
     <main className="container-nav">
-      <div className="home-con">
-        <a href="/" id="gohome-a">
-          <FiCircle size={30} color={"#e1e1e1"} />
+      <div className="info-con">
+        <a href="/" id="info-a">
+          <FiInfo size={30} color={"#e1e1e1"} />
         </a>
       </div>
-      <div className="arrow-con">
-        <button id="rightarrow-btn">
-          <FiChevronRight id={"bars-icon"} size={30} color={"#e1e1e1"} />
+      <div className="contact-con">
+        <button id="contact-btn">
+          <FiMessageSquare id={"bars-icon"} size={30} color={"#e1e1e1"} />
         </button>
       </div>
     </main>

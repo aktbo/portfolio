@@ -1,0 +1,52 @@
+.pullout-con {
+  /* display: grid; */
+
+  height: 100%;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 0;
+  font-size: 40px;
+  font-family: Andale Mono, monospace;
+  background-color: #1a1a1a;
+}
+
+.pullout-as {
+  position: absolute;
+  right: 40%;
+}
+
+#circle-pa {
+  margin: 20px 120px;
+  border-bottom: 3px solid #1a1a1a;
+  border-radius: 100%;
+  border-image-slice: 1;
+}
+
+#circle-pa:hover {
+  border-image-source: linear-gradient(to left, #ff0066, #33ccff);
+}
+
+#projects-pa {
+  margin: 30px;
+}
+
+#values-pa {
+  margin: 30px;
+}
+
+#about-pa {
+  margin: 30px;
+}
+
+#contact-pa {
+  margin: 30px;
+}
+
+#github-pa {
+  margin: 30px;
+}
+
+#linkedin-pa {
+  margin: 30px;
+}

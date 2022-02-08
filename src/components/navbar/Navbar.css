@@ -9,17 +9,17 @@
   padding: 0 20px 0 20px;
 }
 
-.home-con {
+.info-con {
   margin-top: 20px;
 }
-#gohome-a {
+#info-a {
   padding: 18px 3px 0 3px;
   border-bottom: 3px solid;
   border-radius: 100%;
   border-image-slice: 1;
 }
 
-#rightarrow-btn {
+#contact-btn {
   background-color: transparent;
   padding: 18px 3px 0 3px;
   border: 0;
@@ -28,12 +28,13 @@
   border-image-slice: 1;
 }
 
-#gohome-a:hover {
+#info-a:hover {
   border-image-source: linear-gradient(to left, #ff0066, #33ccff);
 }
 
-#rightarrow-btn:hover {
+#contact-btn:hover {
   border-image-source: linear-gradient(to left, #ff0066, #33ccff);
+  cursor: pointer;
 }
 
 @media (-webkit-min-device-pixel-ratio: 0) {
