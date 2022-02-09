@@ -4,7 +4,15 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <main className="hero-con">
-      {/* new css animation */}
+      {/* square css animation */}
+      <div className="hero-gradient-border" id="hero-box">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div id="box-cover"></div>
+      {/* circle css animation */}
       <div className="circle">
         <span></span>
         <span></span>

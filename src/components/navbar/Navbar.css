@@ -5,6 +5,7 @@
   max-width: 70px;
   height: 100%;
   position: fixed;
+  border: 3px solid #222121;
   margin: 0;
   padding: 0 20px 0 20px;
   top: 0;
@@ -20,7 +21,7 @@
 }
 
 #contact-a {
-  top: 50%;
+  top: 40%;
   position: relative;
   padding: 18px 3px 0 3px;
   border-bottom: 3px solid;
@@ -68,5 +69,23 @@
     background-position: 0 0;
     color: transparent;
     transition: 0.1s 0;
+  }
+}
+
+@media (max-height: 464px) {
+  #contact-a {
+    top: 35%;
+  }
+}
+
+@media (max-height: 345px) {
+  #contact-a {
+    top: 25%;
+  }
+}
+
+@media (max-height: 280px) {
+  #contact-a {
+    top: 15%;
   }
 }
