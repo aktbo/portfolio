@@ -1,0 +1,36 @@
+.contact-pgcon {
+  position: absolute;
+  top: 0;
+  left: 7%;
+  width: 93%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.contact-infocon {
+  position: absolute;
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+  left: 2%;
+  top: 33%;
+  color: #1a1a1a;
+}
+
+#p-1 {
+  margin: 0 auto;
+  height: 355px;
+  width: 490px;
+  color: #1a1a1a;
+  background-color: #e1e1e1;
+  border-radius: 10%;
+  line-height: 120px;
+  font-size: 40px;
+}
+
+form {
+  margin: 0 auto;
+  padding: 0;
+  width: 30%;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import About from "./Pages/about/About";
 import Hero from "./components/hero/Hero";
+import Contact from "./Pages/contact/Contact";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 
@@ -14,7 +15,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact component={Hero} />
-        {/* <Route path="/contact" component={Contact} /> */}
+        <Route path="/contact" component={Contact} />
         <Route path="/about" component={About} />
         <Route parth="*" component={NotFound} />
       </Switch>
